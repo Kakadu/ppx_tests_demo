@@ -1,0 +1,7 @@
+(library
+ (name lib1)
+ (package HACK)
+ (modules lib1)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test ppx_expect)))

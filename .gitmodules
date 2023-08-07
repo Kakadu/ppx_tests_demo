@@ -1,0 +1,8 @@
+[submodule "ppx_expect"]
+	path = ppx_expect
+	url = https://github.com/Kakadu/ppx_expect.git
+	branch = nobase
+[submodule "ppx_inline_test"]
+	path = ppx_inline_test
+	url = https://github.com/Kakadu/ppx_inline_test.git
+	branch = nobase
