@@ -1,5 +1,3 @@
 let%test _ = true
 
-(* let%expect_test _ = 
-  print_endline "hellO";
-  [%expect{||}] *)
+let rec fac n = if n<=1 then 1 else n * fac (n-1)

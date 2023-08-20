@@ -5,3 +5,29 @@
  (inline_tests)
  (preprocess
   (pps ppx_inline_test)))
+
+(executable
+ (name exec0)
+ (modules exec0)
+ (package HACK)
+ (modes
+  exe
+  ;js
+  ;
+  )
+ (public_name -)
+ (libraries
+  lib0
+  mtime.clock.os
+  ;
+  )
+ (flags
+  (:standard -rectypes))
+ (preprocess
+  (pps js_of_ocaml-ppx)))
+
+(cram
+ (deps
+  ./exec0.exe
+  ;exec0.bc.js
+  ))
