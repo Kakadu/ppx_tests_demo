@@ -23,8 +23,9 @@
   )
  (flags
   (:standard -rectypes))
- (preprocess
-  (pps js_of_ocaml-ppx)))
+ ;  (preprocess
+ ;   (pps js_of_ocaml-ppx))
+ )
 
 (cram
  (deps
