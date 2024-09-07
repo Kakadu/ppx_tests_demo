@@ -1,4 +1,4 @@
-##### Ppx based tests demo without heavy dependecies
+### Ppx based tests demo without heavy dependecies
 
 There are three submodules:
   * ppx_inline_test
@@ -20,3 +20,12 @@ Open questions:
 * Will JaneStreet going to be angry because of dissecting of it's libraries? MIT license see
 * Will anybody is going to use this?
 * Any chance it could be accepted into main OPAM repo?
+
+
+##### Testing this demo
+
+    git clone git@github.com:Kakadu/ppx_tests_demo.git --recursive
+    cd ppx_tests_demo
+    dune test
+
+One test should fail, but it is expected
