@@ -4,7 +4,7 @@
  (modules lib0)
  (inline_tests)
  (preprocess
-  (pps ppx_inline_test)))
+  (pps ppx_inline_test_nobase)))
 
 (executable
  (name exec0)
