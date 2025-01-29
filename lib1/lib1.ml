@@ -1,5 +1,5 @@
 
-let%test _ = true
+(* let%test _ = true *)
 
 let%expect_test _ =
   print_endline "hello";
